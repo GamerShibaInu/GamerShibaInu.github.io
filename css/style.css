@@ -4,3 +4,6 @@
 body{
     background-color: rgb(252, 145, 46);
 }
+.card-width{
+    max-width: 500px;
+}
