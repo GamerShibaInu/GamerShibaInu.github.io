@@ -7,3 +7,9 @@ body{
 .card-width{
     max-width: 500px;
 }
+.selfie{
+    max-width: 300px;
+}
+.card-img{
+    max-width: 200px;
+}
