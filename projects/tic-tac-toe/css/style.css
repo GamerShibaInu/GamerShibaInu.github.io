@@ -1,0 +1,129 @@
+body{
+  text-align: center;
+  background-color: rgb(61, 236, 31);
+  user-select:none;
+  font-size: 65px;
+  -webkit-text-stroke: 2px;
+  -webkit-text-fill-color: rgb(255, 140, 0);
+  color: rgb(255, 247, 0);
+   font-family: 'Franklin Gothic Medium'
+}
+.wrapper {
+  border-radius: 6px;
+  background-color: rgb(7, 168, 7);
+  margin: auto; 
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 450px;
+  height: 450px;
+  border: 1px solid #333;
+}
+
+.square {
+  border: 1px solid #333;
+  text-align: center;
+}
+.square:hover{
+  background-color: gold;
+  -webkit-text-stroke: 2px;
+  -webkit-text-fill-color: rgb(212, 255, 0);
+  color: red;
+}
+.plr-two{
+  margin: auto;
+  text-align: center;
+}
+.plr-one{
+  margin: auto;
+  text-align: center;
+}
+.top-bar{
+  border: 2px solid #333;
+  border-radius: 6px;
+  background-color: rgb(7, 168, 7);
+  margin: auto;
+  width: 450px
+}
+
+.turn-text{
+  border: 2px solid #333;
+  border-radius: 6px;
+  margin: auto;
+  margin-top: 5px;
+  text-align: center;
+  background-color: rgb(7, 168, 7);
+  width: 450px
+}
+
+.scoreboard{
+  font-size: 50px;
+  border: 2px solid #333;
+  border-radius: 6px;
+    background-color: rgb(7, 168, 7);
+    margin: auto;
+    margin-top: 5px;
+    width: 450px
+}
+.plr-one-score{
+  text-align: center
+}
+.plr-two-score{
+  text-align: center
+}
+.resetBtn{
+  font-size: 45px;
+  background-color: green;
+  width: 100%;
+  height: 30%;
+}
+
+@media only screen and (max-width: 650px),
+            screen and (max-height:800px) {
+  body {
+    font-size: 35px;
+    background-color: rgb(61, 236, 31);
+  }
+
+  .resetBtn{
+    font-size: 25px;
+    background-color: rgb(7, 168, 7);
+    width: 100%;
+    height: 10%;
+  }
+  .scoreboard{
+    font-size: 35px;
+    border: 2px solid #333;
+    border-radius: 6px;
+      background-color: rgb(7, 168, 7);
+      margin: auto;
+      margin-top: 5px;
+      width: 350px
+    
+  }
+  .turn-text{
+    border: 2px solid #333;
+    border-radius: 6px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    background-color: rgb(7, 168, 7);
+    width: 350px
+  }
+  .wrapper {
+    border-radius: 6px;
+    background-color: rgb(7, 168, 7);
+    margin: auto; 
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 350px;
+    height: 350px;
+    border: 1px solid #333;
+  }
+  .top-bar{
+    width: 350px;
+  }
+}
